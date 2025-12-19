@@ -159,6 +159,10 @@ public class Dabgues : MonoBehaviour
             {
                 SceneManager.LoadScene("GameOver");
             }
+            if (tags.Contains("DEMO_OVER"))
+            {
+                SceneManager.LoadScene("Day 2 TBC");
+            }
             if (tags.Contains("THE78"))
             {
                 SceneManager.LoadScene("The 78");
